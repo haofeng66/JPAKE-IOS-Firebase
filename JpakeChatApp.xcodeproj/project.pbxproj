@@ -7,15 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42DBE7C1A58398BF5EFBDBC3 /* libPods-JpakeChatApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4845AE0CFAE36119B42E4F70 /* libPods-JpakeChatApp.a */; };
+		DE8356D81D058E1500EB6CA4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8356D71D058E1500EB6CA4 /* Security.framework */; };
+		DEBD2FD81D0229E300583242 /* NSData+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBD2FD71D0229E300583242 /* NSData+AES256.m */; };
 		DED889581CCD1AFA00F4CE97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DED889571CCD1AFA00F4CE97 /* main.m */; };
 		DED8895B1CCD1AFA00F4CE97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DED8895A1CCD1AFA00F4CE97 /* AppDelegate.m */; };
-		DED8895E1CCD1AFA00F4CE97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DED8895D1CCD1AFA00F4CE97 /* ViewController.m */; };
-		DED889611CCD1AFA00F4CE97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DED8895F1CCD1AFA00F4CE97 /* Main.storyboard */; };
-		DED889641CCD1AFA00F4CE97 /* JpakeChatApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DED889621CCD1AFA00F4CE97 /* JpakeChatApp.xcdatamodeld */; };
 		DED889661CCD1AFA00F4CE97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DED889651CCD1AFA00F4CE97 /* Assets.xcassets */; };
 		DED889691CCD1AFA00F4CE97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DED889671CCD1AFA00F4CE97 /* LaunchScreen.storyboard */; };
 		DED889741CCD1AFA00F4CE97 /* JpakeChatAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DED889731CCD1AFA00F4CE97 /* JpakeChatAppTests.m */; };
 		DED8897F1CCD1AFA00F4CE97 /* JpakeChatAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DED8897E1CCD1AFA00F4CE97 /* JpakeChatAppUITests.m */; };
+		DED8899B1CCD1B7800F4CE97 /* jpakeKey.m in Sources */ = {isa = PBXBuildFile; fileRef = DED8898E1CCD1B7800F4CE97 /* jpakeKey.m */; };
+		DED8899C1CCD1B7800F4CE97 /* jpakeParms.m in Sources */ = {isa = PBXBuildFile; fileRef = DED889901CCD1B7800F4CE97 /* jpakeParms.m */; };
+		DED8899D1CCD1B7800F4CE97 /* jpakeparticipant.m in Sources */ = {isa = PBXBuildFile; fileRef = DED889921CCD1B7800F4CE97 /* jpakeparticipant.m */; };
+		DED8899E1CCD1B7800F4CE97 /* JpakeRound1Payload.m in Sources */ = {isa = PBXBuildFile; fileRef = DED889941CCD1B7800F4CE97 /* JpakeRound1Payload.m */; };
+		DED8899F1CCD1B7800F4CE97 /* JpakeRound2Payload.m in Sources */ = {isa = PBXBuildFile; fileRef = DED889961CCD1B7800F4CE97 /* JpakeRound2Payload.m */; };
+		DED889A01CCD1B7800F4CE97 /* JpakeRound3Payload.m in Sources */ = {isa = PBXBuildFile; fileRef = DED889981CCD1B7800F4CE97 /* JpakeRound3Payload.m */; };
+		DED889A11CCD1B7800F4CE97 /* jpakeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = DED8899A1CCD1B7800F4CE97 /* jpakeUtils.m */; };
+		DED889A61CCD1B8800F4CE97 /* NSData+conversion.m in Sources */ = {isa = PBXBuildFile; fileRef = DED889A31CCD1B8800F4CE97 /* NSData+conversion.m */; };
+		DED889A71CCD1B8800F4CE97 /* NSString+SHA256.m in Sources */ = {isa = PBXBuildFile; fileRef = DED889A51CCD1B8800F4CE97 /* NSString+SHA256.m */; };
+		DED889A91CCD1B9800F4CE97 /* libBigInteger-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DED889A81CCD1B9800F4CE97 /* libBigInteger-iOS.a */; };
+		DED889AC1CCD1BA600F4CE97 /* InboxTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DED889AB1CCD1BA600F4CE97 /* InboxTableViewController.m */; };
+		DED889AF1CCD1BB500F4CE97 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DED889AE1CCD1BB500F4CE97 /* LoginViewController.m */; };
+		DED889B21CCD1BC000F4CE97 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = DED889B11CCD1BC000F4CE97 /* User.m */; };
+		DED889B51CCD1BCE00F4CE97 /* DataBasics.m in Sources */ = {isa = PBXBuildFile; fileRef = DED889B41CCD1BCE00F4CE97 /* DataBasics.m */; };
+		DED889B91CCD1C3900F4CE97 /* signupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DED889B81CCD1C3900F4CE97 /* signupViewController.m */; };
+		DED889BB1CCD1EE700F4CE97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DED889BA1CCD1EE700F4CE97 /* Main.storyboard */; };
+		DED889C61CCD205800F4CE97 /* JParticipant.m in Sources */ = {isa = PBXBuildFile; fileRef = DED889C11CCD205800F4CE97 /* JParticipant.m */; };
+		DED889C71CCD205800F4CE97 /* JParticipant+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = DED889C31CCD205800F4CE97 /* JParticipant+CoreDataProperties.m */; };
+		DED889CA1CCD207E00F4CE97 /* theCoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = DED889C91CCD207E00F4CE97 /* theCoreDataStack.m */; };
+		DEED44D71CFE211C00397F6F /* JKey+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = DEED44D41CFE211C00397F6F /* JKey+CoreDataProperties.m */; };
+		DEED44D81CFE211C00397F6F /* JKey.m in Sources */ = {isa = PBXBuildFile; fileRef = DEED44D61CFE211C00397F6F /* JKey.m */; };
+		DEED44DB1CFEFABD00397F6F /* ChatVCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEED44DA1CFEFABD00397F6F /* ChatVCTableViewController.m */; };
+		DEED44E71D004FEA00397F6F /* JpakeChatApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DEED44E51D004FEA00397F6F /* JpakeChatApp.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +59,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4845AE0CFAE36119B42E4F70 /* libPods-JpakeChatApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JpakeChatApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F14F05F30BBBD7374B47D70 /* Pods-JpakeChatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JpakeChatApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JpakeChatApp/Pods-JpakeChatApp.debug.xcconfig"; sourceTree = "<group>"; };
+		DE8356D71D058E1500EB6CA4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		DEBD2FD61D0229E300583242 /* NSData+AES256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES256.h"; sourceTree = "<group>"; };
+		DEBD2FD71D0229E300583242 /* NSData+AES256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES256.m"; sourceTree = "<group>"; };
+		DEBD2FD91D02D99200583242 /* JpakeChatApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JpakeChatApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		DED889531CCD1AFA00F4CE97 /* JpakeChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JpakeChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DED889571CCD1AFA00F4CE97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DED889591CCD1AFA00F4CE97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DED8895A1CCD1AFA00F4CE97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DED8895C1CCD1AFA00F4CE97 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DED8895D1CCD1AFA00F4CE97 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DED889601CCD1AFA00F4CE97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DED889631CCD1AFA00F4CE97 /* JpakeChatApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JpakeChatApp.xcdatamodel; sourceTree = "<group>"; };
 		DED889651CCD1AFA00F4CE97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DED889681CCD1AFA00F4CE97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DED8896A1CCD1AFA00F4CE97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,6 +78,51 @@
 		DED8897A1CCD1AFA00F4CE97 /* JpakeChatAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JpakeChatAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DED8897E1CCD1AFA00F4CE97 /* JpakeChatAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JpakeChatAppUITests.m; sourceTree = "<group>"; };
 		DED889801CCD1AFA00F4CE97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DED8898C1CCD1B6000F4CE97 /* BigInteger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BigInteger.h; sourceTree = "<group>"; };
+		DED8898D1CCD1B7800F4CE97 /* jpakeKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jpakeKey.h; sourceTree = "<group>"; };
+		DED8898E1CCD1B7800F4CE97 /* jpakeKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jpakeKey.m; sourceTree = "<group>"; };
+		DED8898F1CCD1B7800F4CE97 /* jpakeParms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jpakeParms.h; sourceTree = "<group>"; };
+		DED889901CCD1B7800F4CE97 /* jpakeParms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jpakeParms.m; sourceTree = "<group>"; };
+		DED889911CCD1B7800F4CE97 /* jpakeparticipant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jpakeparticipant.h; sourceTree = "<group>"; };
+		DED889921CCD1B7800F4CE97 /* jpakeparticipant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jpakeparticipant.m; sourceTree = "<group>"; };
+		DED889931CCD1B7800F4CE97 /* JpakeRound1Payload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JpakeRound1Payload.h; sourceTree = "<group>"; };
+		DED889941CCD1B7800F4CE97 /* JpakeRound1Payload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JpakeRound1Payload.m; sourceTree = "<group>"; };
+		DED889951CCD1B7800F4CE97 /* JpakeRound2Payload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JpakeRound2Payload.h; sourceTree = "<group>"; };
+		DED889961CCD1B7800F4CE97 /* JpakeRound2Payload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JpakeRound2Payload.m; sourceTree = "<group>"; };
+		DED889971CCD1B7800F4CE97 /* JpakeRound3Payload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JpakeRound3Payload.h; sourceTree = "<group>"; };
+		DED889981CCD1B7800F4CE97 /* JpakeRound3Payload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JpakeRound3Payload.m; sourceTree = "<group>"; };
+		DED889991CCD1B7800F4CE97 /* jpakeUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jpakeUtils.h; sourceTree = "<group>"; };
+		DED8899A1CCD1B7800F4CE97 /* jpakeUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jpakeUtils.m; sourceTree = "<group>"; };
+		DED889A21CCD1B8800F4CE97 /* NSData+conversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+conversion.h"; sourceTree = "<group>"; };
+		DED889A31CCD1B8800F4CE97 /* NSData+conversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+conversion.m"; sourceTree = "<group>"; };
+		DED889A41CCD1B8800F4CE97 /* NSString+SHA256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SHA256.h"; sourceTree = "<group>"; };
+		DED889A51CCD1B8800F4CE97 /* NSString+SHA256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SHA256.m"; sourceTree = "<group>"; };
+		DED889A81CCD1B9800F4CE97 /* libBigInteger-iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libBigInteger-iOS.a"; sourceTree = "<group>"; };
+		DED889AA1CCD1BA600F4CE97 /* InboxTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InboxTableViewController.h; sourceTree = "<group>"; };
+		DED889AB1CCD1BA600F4CE97 /* InboxTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InboxTableViewController.m; sourceTree = "<group>"; };
+		DED889AD1CCD1BB500F4CE97 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		DED889AE1CCD1BB500F4CE97 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		DED889B01CCD1BC000F4CE97 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		DED889B11CCD1BC000F4CE97 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		DED889B31CCD1BCE00F4CE97 /* DataBasics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBasics.h; sourceTree = "<group>"; };
+		DED889B41CCD1BCE00F4CE97 /* DataBasics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBasics.m; sourceTree = "<group>"; };
+		DED889B71CCD1C3900F4CE97 /* signupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = signupViewController.h; sourceTree = "<group>"; };
+		DED889B81CCD1C3900F4CE97 /* signupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = signupViewController.m; sourceTree = "<group>"; };
+		DED889BA1CCD1EE700F4CE97 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DED889C01CCD205800F4CE97 /* JParticipant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JParticipant.h; sourceTree = "<group>"; };
+		DED889C11CCD205800F4CE97 /* JParticipant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JParticipant.m; sourceTree = "<group>"; };
+		DED889C21CCD205800F4CE97 /* JParticipant+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JParticipant+CoreDataProperties.h"; sourceTree = "<group>"; };
+		DED889C31CCD205800F4CE97 /* JParticipant+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JParticipant+CoreDataProperties.m"; sourceTree = "<group>"; };
+		DED889C81CCD207E00F4CE97 /* theCoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = theCoreDataStack.h; sourceTree = "<group>"; };
+		DED889C91CCD207E00F4CE97 /* theCoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = theCoreDataStack.m; sourceTree = "<group>"; };
+		DEED44D31CFE211C00397F6F /* JKey+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JKey+CoreDataProperties.h"; sourceTree = "<group>"; };
+		DEED44D41CFE211C00397F6F /* JKey+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JKey+CoreDataProperties.m"; sourceTree = "<group>"; };
+		DEED44D51CFE211C00397F6F /* JKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKey.h; sourceTree = "<group>"; };
+		DEED44D61CFE211C00397F6F /* JKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKey.m; sourceTree = "<group>"; };
+		DEED44D91CFEFABD00397F6F /* ChatVCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatVCTableViewController.h; sourceTree = "<group>"; };
+		DEED44DA1CFEFABD00397F6F /* ChatVCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatVCTableViewController.m; sourceTree = "<group>"; };
+		DEED44E61D004FEA00397F6F /* JpakeChatApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JpakeChatApp.xcdatamodel; sourceTree = "<group>"; };
+		EF80F54C0EABD50E586B8346 /* Pods-JpakeChatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JpakeChatApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-JpakeChatApp/Pods-JpakeChatApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +130,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE8356D81D058E1500EB6CA4 /* Security.framework in Frameworks */,
+				DED889A91CCD1B9800F4CE97 /* libBigInteger-iOS.a in Frameworks */,
+				42DBE7C1A58398BF5EFBDBC3 /* libPods-JpakeChatApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +153,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CCB04083E6A896362904EF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE8356D71D058E1500EB6CA4 /* Security.framework */,
+				4845AE0CFAE36119B42E4F70 /* libPods-JpakeChatApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7EDEA09C245439B6006366F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F14F05F30BBBD7374B47D70 /* Pods-JpakeChatApp.debug.xcconfig */,
+				EF80F54C0EABD50E586B8346 /* Pods-JpakeChatApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DE7035B61D12A130009010D9 /* CoreData Models */ = {
+			isa = PBXGroup;
+			children = (
+				DED889C01CCD205800F4CE97 /* JParticipant.h */,
+				DED889C11CCD205800F4CE97 /* JParticipant.m */,
+				DEED44D31CFE211C00397F6F /* JKey+CoreDataProperties.h */,
+				DEED44D41CFE211C00397F6F /* JKey+CoreDataProperties.m */,
+				DEED44D51CFE211C00397F6F /* JKey.h */,
+				DEED44D61CFE211C00397F6F /* JKey.m */,
+				DED889C21CCD205800F4CE97 /* JParticipant+CoreDataProperties.h */,
+				DED889C31CCD205800F4CE97 /* JParticipant+CoreDataProperties.m */,
+			);
+			name = "CoreData Models";
+			sourceTree = "<group>";
+		};
+		DE7035B71D12A195009010D9 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				DEBD2FD61D0229E300583242 /* NSData+AES256.h */,
+				DEBD2FD71D0229E300583242 /* NSData+AES256.m */,
+				DED889A41CCD1B8800F4CE97 /* NSString+SHA256.h */,
+				DED889A51CCD1B8800F4CE97 /* NSString+SHA256.m */,
+				DED889A21CCD1B8800F4CE97 /* NSData+conversion.h */,
+				DED889A31CCD1B8800F4CE97 /* NSData+conversion.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
 		DED8894A1CCD1AF900F4CE97 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +206,9 @@
 				DED889721CCD1AFA00F4CE97 /* JpakeChatAppTests */,
 				DED8897D1CCD1AFA00F4CE97 /* JpakeChatAppUITests */,
 				DED889541CCD1AFA00F4CE97 /* Products */,
+				7EDEA09C245439B6006366F6 /* Pods */,
+				2CCB04083E6A896362904EF0 /* Frameworks */,
+				DEBD2FD91D02D99200583242 /* JpakeChatApp-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,15 +225,30 @@
 		DED889551CCD1AFA00F4CE97 /* JpakeChatApp */ = {
 			isa = PBXGroup;
 			children = (
+				DE7035B61D12A130009010D9 /* CoreData Models */,
+				DED889C81CCD207E00F4CE97 /* theCoreDataStack.h */,
+				DED889C91CCD207E00F4CE97 /* theCoreDataStack.m */,
 				DED889591CCD1AFA00F4CE97 /* AppDelegate.h */,
 				DED8895A1CCD1AFA00F4CE97 /* AppDelegate.m */,
-				DED8895C1CCD1AFA00F4CE97 /* ViewController.h */,
-				DED8895D1CCD1AFA00F4CE97 /* ViewController.m */,
-				DED8895F1CCD1AFA00F4CE97 /* Main.storyboard */,
+				DEED44E51D004FEA00397F6F /* JpakeChatApp.xcdatamodeld */,
+				DED889B31CCD1BCE00F4CE97 /* DataBasics.h */,
+				DED889B41CCD1BCE00F4CE97 /* DataBasics.m */,
+				DED889B01CCD1BC000F4CE97 /* User.h */,
+				DED889B11CCD1BC000F4CE97 /* User.m */,
+				DED889BA1CCD1EE700F4CE97 /* Main.storyboard */,
+				DED889AA1CCD1BA600F4CE97 /* InboxTableViewController.h */,
+				DED889AB1CCD1BA600F4CE97 /* InboxTableViewController.m */,
+				DEED44D91CFEFABD00397F6F /* ChatVCTableViewController.h */,
+				DEED44DA1CFEFABD00397F6F /* ChatVCTableViewController.m */,
+				DE7035B71D12A195009010D9 /* Categories */,
+				DED889AD1CCD1BB500F4CE97 /* LoginViewController.h */,
+				DED889AE1CCD1BB500F4CE97 /* LoginViewController.m */,
+				DED889B71CCD1C3900F4CE97 /* signupViewController.h */,
+				DED889B81CCD1C3900F4CE97 /* signupViewController.m */,
+				DED889B61CCD1BF200F4CE97 /* jpake */,
 				DED889651CCD1AFA00F4CE97 /* Assets.xcassets */,
 				DED889671CCD1AFA00F4CE97 /* LaunchScreen.storyboard */,
 				DED8896A1CCD1AFA00F4CE97 /* Info.plist */,
-				DED889621CCD1AFA00F4CE97 /* JpakeChatApp.xcdatamodeld */,
 				DED889561CCD1AFA00F4CE97 /* Supporting Files */,
 			);
 			path = JpakeChatApp;
@@ -143,6 +280,29 @@
 			path = JpakeChatAppUITests;
 			sourceTree = "<group>";
 		};
+		DED889B61CCD1BF200F4CE97 /* jpake */ = {
+			isa = PBXGroup;
+			children = (
+				DED889A81CCD1B9800F4CE97 /* libBigInteger-iOS.a */,
+				DED8898E1CCD1B7800F4CE97 /* jpakeKey.m */,
+				DED8898D1CCD1B7800F4CE97 /* jpakeKey.h */,
+				DED8898F1CCD1B7800F4CE97 /* jpakeParms.h */,
+				DED889901CCD1B7800F4CE97 /* jpakeParms.m */,
+				DED8898C1CCD1B6000F4CE97 /* BigInteger.h */,
+				DED889911CCD1B7800F4CE97 /* jpakeparticipant.h */,
+				DED889921CCD1B7800F4CE97 /* jpakeparticipant.m */,
+				DED889931CCD1B7800F4CE97 /* JpakeRound1Payload.h */,
+				DED889941CCD1B7800F4CE97 /* JpakeRound1Payload.m */,
+				DED889951CCD1B7800F4CE97 /* JpakeRound2Payload.h */,
+				DED889961CCD1B7800F4CE97 /* JpakeRound2Payload.m */,
+				DED889971CCD1B7800F4CE97 /* JpakeRound3Payload.h */,
+				DED889981CCD1B7800F4CE97 /* JpakeRound3Payload.m */,
+				DED889991CCD1B7800F4CE97 /* jpakeUtils.h */,
+				DED8899A1CCD1B7800F4CE97 /* jpakeUtils.m */,
+			);
+			name = jpake;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +310,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DED889831CCD1AFA00F4CE97 /* Build configuration list for PBXNativeTarget "JpakeChatApp" */;
 			buildPhases = (
+				47A5822A9ABC566DDD8D915B /* Check Pods Manifest.lock */,
 				DED8894F1CCD1AFA00F4CE97 /* Sources */,
 				DED889501CCD1AFA00F4CE97 /* Frameworks */,
 				DED889511CCD1AFA00F4CE97 /* Resources */,
+				9E43E6998D850D72E490431C /* Embed Pods Frameworks */,
+				89FFAC224097C156FE920946 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -205,11 +368,13 @@
 		DED8894B1CCD1AFA00F4CE97 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "newcastle university";
 				TargetAttributes = {
 					DED889521CCD1AFA00F4CE97 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = X7BDHAQC53;
 					};
 					DED8896E1CCD1AFA00F4CE97 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -246,9 +411,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DED889BB1CCD1EE700F4CE97 /* Main.storyboard in Resources */,
 				DED889691CCD1AFA00F4CE97 /* LaunchScreen.storyboard in Resources */,
 				DED889661CCD1AFA00F4CE97 /* Assets.xcassets in Resources */,
-				DED889611CCD1AFA00F4CE97 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,15 +433,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		47A5822A9ABC566DDD8D915B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		89FFAC224097C156FE920946 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JpakeChatApp/Pods-JpakeChatApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E43E6998D850D72E490431C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JpakeChatApp/Pods-JpakeChatApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DED8894F1CCD1AFA00F4CE97 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DED8895E1CCD1AFA00F4CE97 /* ViewController.m in Sources */,
-				DED889641CCD1AFA00F4CE97 /* JpakeChatApp.xcdatamodeld in Sources */,
+				DEED44D71CFE211C00397F6F /* JKey+CoreDataProperties.m in Sources */,
+				DED889CA1CCD207E00F4CE97 /* theCoreDataStack.m in Sources */,
+				DED889B21CCD1BC000F4CE97 /* User.m in Sources */,
+				DED8899D1CCD1B7800F4CE97 /* jpakeparticipant.m in Sources */,
+				DED8899F1CCD1B7800F4CE97 /* JpakeRound2Payload.m in Sources */,
+				DED889A61CCD1B8800F4CE97 /* NSData+conversion.m in Sources */,
+				DEED44DB1CFEFABD00397F6F /* ChatVCTableViewController.m in Sources */,
+				DED8899B1CCD1B7800F4CE97 /* jpakeKey.m in Sources */,
+				DED889A71CCD1B8800F4CE97 /* NSString+SHA256.m in Sources */,
+				DED889A01CCD1B7800F4CE97 /* JpakeRound3Payload.m in Sources */,
+				DED889C61CCD205800F4CE97 /* JParticipant.m in Sources */,
+				DED8899C1CCD1B7800F4CE97 /* jpakeParms.m in Sources */,
+				DED8899E1CCD1B7800F4CE97 /* JpakeRound1Payload.m in Sources */,
+				DED889AC1CCD1BA600F4CE97 /* InboxTableViewController.m in Sources */,
+				DED889B51CCD1BCE00F4CE97 /* DataBasics.m in Sources */,
+				DEBD2FD81D0229E300583242 /* NSData+AES256.m in Sources */,
+				DED889C71CCD205800F4CE97 /* JParticipant+CoreDataProperties.m in Sources */,
 				DED8895B1CCD1AFA00F4CE97 /* AppDelegate.m in Sources */,
 				DED889581CCD1AFA00F4CE97 /* main.m in Sources */,
+				DED889A11CCD1B7800F4CE97 /* jpakeUtils.m in Sources */,
+				DEED44D81CFE211C00397F6F /* JKey.m in Sources */,
+				DEED44E71D004FEA00397F6F /* JpakeChatApp.xcdatamodeld in Sources */,
+				DED889B91CCD1C3900F4CE97 /* signupViewController.m in Sources */,
+				DED889AF1CCD1BB500F4CE97 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,14 +545,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DED8895F1CCD1AFA00F4CE97 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DED889601CCD1AFA00F4CE97 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DED889671CCD1AFA00F4CE97 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -413,23 +638,50 @@
 		};
 		DED889841CCD1AFA00F4CE97 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F14F05F30BBBD7374B47D70 /* Pods-JpakeChatApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = JpakeChatApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uk.ac.ncl.secureChat.JpakeChatApp;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JpakeChatApp",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.ac.ncl.securechat.JpakeChatApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "JpakeChatApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		DED889851CCD1AFA00F4CE97 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF80F54C0EABD50E586B8346 /* Pods-JpakeChatApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = JpakeChatApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uk.ac.ncl.secureChat.JpakeChatApp;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JpakeChatApp",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.ac.ncl.securechat.JpakeChatApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "JpakeChatApp-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -460,10 +712,12 @@
 		DED8898A1CCD1AFA00F4CE97 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = "";
 				INFOPLIST_FILE = JpakeChatAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.ac.ncl.secureChat.JpakeChatAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8ff776e3-88fb-462e-a7cf-50beea15730f";
 				TEST_TARGET_NAME = JpakeChatApp;
 				USES_XCTRUNNER = YES;
 			};
@@ -476,6 +730,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.ac.ncl.secureChat.JpakeChatAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8ff776e3-88fb-462e-a7cf-50beea15730f";
 				TEST_TARGET_NAME = JpakeChatApp;
 				USES_XCTRUNNER = YES;
 			};
@@ -500,6 +755,7 @@
 				DED889851CCD1AFA00F4CE97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DED889861CCD1AFA00F4CE97 /* Build configuration list for PBXNativeTarget "JpakeChatAppTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +764,7 @@
 				DED889881CCD1AFA00F4CE97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DED889891CCD1AFA00F4CE97 /* Build configuration list for PBXNativeTarget "JpakeChatAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,16 +773,17 @@
 				DED8898B1CCD1AFA00F4CE97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		DED889621CCD1AFA00F4CE97 /* JpakeChatApp.xcdatamodeld */ = {
+		DEED44E51D004FEA00397F6F /* JpakeChatApp.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				DED889631CCD1AFA00F4CE97 /* JpakeChatApp.xcdatamodel */,
+				DEED44E61D004FEA00397F6F /* JpakeChatApp.xcdatamodel */,
 			);
-			currentVersion = DED889631CCD1AFA00F4CE97 /* JpakeChatApp.xcdatamodel */;
+			currentVersion = DEED44E61D004FEA00397F6F /* JpakeChatApp.xcdatamodel */;
 			path = JpakeChatApp.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

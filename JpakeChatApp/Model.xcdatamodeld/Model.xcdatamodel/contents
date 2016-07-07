@@ -11,7 +11,7 @@
         <attribute name="toName" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="JParticipant" positionX="-45" positionY="0" width="128" height="90"/>
-        <element name="JKey" positionX="-18" positionY="54" width="128" height="90"/>
+        <element name="JParticipant" positionX="-63" positionY="-18" width="128" height="90"/>
+        <element name="JKey" positionX="-54" positionY="18" width="128" height="90"/>
     </elements>
 </model>
