@@ -249,36 +249,53 @@
         NSString *macTag=snapshot.value[@"macTag"];
         
         
-
         NSData *ivData=[[NSData alloc]initWithBase64EncodedString:iv options:kNilOptions];
+
+        NSData *dataEncTxt = [txt dataUsingEncoding:NSUTF8StringEncoding];
         
-        
-        
-        NSString *txt1 =[self decryptwithIV:txt withkey:self.kencData withIV:ivData];
-        
-        NSData *dataEncTxt = [txt1 dataUsingEncoding:NSUTF8StringEncoding];
         
         NSMutableData *concatenatedData1 = [NSMutableData data];
-        [concatenatedData1 appendData:dataEncTxt];
         [concatenatedData1 appendData:ivData];
+        [concatenatedData1 appendData:dataEncTxt];
         
-        
-        
-        
-        
-      
         NSString *string11=[concatenatedData1 base64EncodedStringWithOptions:0];
         NSString *hmac=[jpakeUtils hmac:string11 withKey:self.kmac];
         
+        NSLog(@"hmac %@ ",hmac);
+        NSLog(@"mac Tag %@",macTag);
+
+        
+
+        
+        NSLog(@"text to be decrypted :%@ IV :%@",txt,ivData);
+        
+       //        NSData *dataEncTxt = [txt1 dataUsingEncoding:NSUTF8StringEncoding];
+//        
+//        
+//        NSMutableData *concatenatedData1 = [NSMutableData data];
+//        [concatenatedData1 appendData:dataEncTxt];
+//        [concatenatedData1 appendData:ivData];
+//        
         
         
+       // NSLog(@"txt :%@ ::: concatendated data :%@  dataenctxt :: %@ ",txt1,concatenatedData1,dataEncTxt);
         
-        NSMutableString *string = [NSMutableString stringWithString:txt1];
-        [string appendString:iv];
+      
+        
+        
+//        NSMutableString *string = [NSMutableString stringWithString:txt1];
+//        [string appendString:iv];
+//         NSString *hmac2=[jpakeUtils hmac:string withKey:self.kmac];
         
         if([hmac isEqualToString:macTag]){
             NSLog(@"cool mactage matched");
+            NSString *txt1 =[self decryptwithIV:txt withkey:self.kencData withIV:ivData];
+            NSLog(@"txt1 after decryption %@",txt1);
+            
+            
+
             JSQMessage *msg=[[JSQMessage alloc]initWithSenderId:otherUser senderDisplayName:otherUSerEmail date:date text:txt1];
+            NSLog(@"jsqmsg %@",msg);
             [self.msgArray addObject:msg];
             [self finishReceivingMessage ];
 
@@ -287,8 +304,11 @@
         else{
         NSLog(@"cool mactage not  matched");
             [self errorManagement:@"MAc Tag Mismatch" message:@"Mactag not matching"];
+            
         }
         
+//        if([hmac2 isEqualToString:macTag]){
+//            NSLog(@"cool mactage matched seconf");}
         }];
 
 
@@ -335,23 +355,38 @@
     
     
   
-    NSData *dataEncTxt = [text dataUsingEncoding:NSUTF8StringEncoding];
-    
-    NSMutableData *concatenatedData1 = [NSMutableData data];
-    [concatenatedData1 appendData:dataEncTxt];
-    [concatenatedData1 appendData:iv];
-    
-    
+//    NSData *dataEncTxt = [text dataUsingEncoding:NSUTF8StringEncoding];
+//    
+//    NSMutableData *concatenatedData1 = [NSMutableData data];
+//    [concatenatedData1 appendData:dataEncTxt];
+//    [concatenatedData1 appendData:iv];
+//    
+//    
     
     
     
 //    NSString *string11 = [[NSString alloc] initWithData:concatenatedData1 encoding:NSUTF8StringEncoding];
+//    NSString *string11=[concatenatedData1 base64EncodedStringWithOptions:0];
+//      NSString *hmac=[jpakeUtils hmac:string11 withKey:self.kmac];
+//
+//    
+//    NSLog(@"hmac %@",hmac);
+    NSString *text1=[self encryptwithIV:text withkey:self.kencData withIV:iv];
+    
+    NSData *dataEncTxt = [text1 dataUsingEncoding:NSUTF8StringEncoding];
+    
+    NSMutableData *concatenatedData1 = [NSMutableData data];
+    [concatenatedData1 appendData:iv];
+    [concatenatedData1 appendData:dataEncTxt];
     NSString *string11=[concatenatedData1 base64EncodedStringWithOptions:0];
-      NSString *hmac=[jpakeUtils hmac:string11 withKey:self.kmac];
-
+    NSString *hmac=[jpakeUtils hmac:string11 withKey:self.kmac];
+    
     
     NSLog(@"hmac %@",hmac);
-    NSString *text1=[self encryptwithIV:text withkey:self.kencData withIV:iv];
+
+
+    
+    
     
    // NSLog(@"text1 message after encrypting with IV %@ ::: key before encryption %@",text1,self.kencData);
     
