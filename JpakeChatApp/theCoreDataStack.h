@@ -8,6 +8,8 @@
 #import <CoreData/CoreData.h>
 #import <Foundation/Foundation.h>
 
+//this class generates a singleton instance of Coredata 
+
 @interface theCoreDataStack : NSObject
 @property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 @property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;

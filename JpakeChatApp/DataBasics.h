@@ -5,6 +5,7 @@
 //  Created by Renu Srijith on 20/04/2016.
 //  Copyright © 2016 newcastle university. All rights reserved.
 //
+//This is the class which handles the firebase calls
 
 #import <Foundation/Foundation.h>
 #import <Firebase.h>

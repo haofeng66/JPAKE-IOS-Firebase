@@ -355,22 +355,7 @@
     
     
   
-//    NSData *dataEncTxt = [text dataUsingEncoding:NSUTF8StringEncoding];
-//    
-//    NSMutableData *concatenatedData1 = [NSMutableData data];
-//    [concatenatedData1 appendData:dataEncTxt];
-//    [concatenatedData1 appendData:iv];
-//    
-//    
-    
-    
-    
-//    NSString *string11 = [[NSString alloc] initWithData:concatenatedData1 encoding:NSUTF8StringEncoding];
-//    NSString *string11=[concatenatedData1 base64EncodedStringWithOptions:0];
-//      NSString *hmac=[jpakeUtils hmac:string11 withKey:self.kmac];
-//
-//    
-//    NSLog(@"hmac %@",hmac);
+
     NSString *text1=[self encryptwithIV:text withkey:self.kencData withIV:iv];
     
     NSData *dataEncTxt = [text1 dataUsingEncoding:NSUTF8StringEncoding];
@@ -399,8 +384,7 @@
     
     
     
-   // [[DataBasics dataBasicsInstance]sendMessage:message convID:self.conversationId ];
-    [[DataBasics dataBasicsInstance]sendMessage:message convID:self.conversationId macTag:hmac iv:ivStringtoStore];
+      [[DataBasics dataBasicsInstance]sendMessage:message convID:self.conversationId macTag:hmac iv:ivStringtoStore];
     [self finishSendingMessageAnimated:YES];
     
     
